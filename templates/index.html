@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content = "width=device-width , initial-scale=1.0"/>
+		<title>
+			Cat status
+		</title>
+		<link href="{{url_for('static',filename='style/style.css')}}" rel="stylesheet"/>
+	</head>
+	<body>
+		<h1>
+			CAT STATUS APP
+		</h1>
+		<form action="/status">
+			<input name = "status" type="text" placeholder="enter your status target ...."/>
+			<button type="submit">
+				SUBMIT
+			</button>
+		</form>
+	</body>
+</html>
